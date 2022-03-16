@@ -51,7 +51,6 @@ public class WaterPokemon extends Pokemon {
         System.out.println("Ik dans lekker in de regen, niet omdat het moet, maar omdat ik dat kan");
     }
 
-    @Override
     public void speaks() {
         System.out.println("Plons");
     }

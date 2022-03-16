@@ -50,5 +50,8 @@ public class GrassPokemon extends Pokemon{
     public void leechSeed(){
         System.out.println("Ik pak jouw zaadjes af");
     }
+    public void speaks() {
+        System.out.println("Ik rook grass");
+    }
 }
 

@@ -2,7 +2,7 @@ public abstract class Pokemon {
     private String name;
     private int level;
     private int xp;
-    private int dateCaught;
+    private final int dateCaught;
 
     public Pokemon(String name, int level, int xp, int dateCaught){
         this.name=name;
@@ -43,22 +43,11 @@ public abstract class Pokemon {
         newXp = xp;
     }
 
-    public void setDateCaught(int newDateCaught){
-        newDateCaught = dateCaught;
-    }
-
     // --------------------------- METHODS
 
     public void eats(){
         System.out.println("Yum yum");
     }
 
-    public void speaks(){
-        System.out.println("Hoi Hoi");
-    }
-
-    public abstract flameThrower() {
-
-    }
-
+    abstract public void speaks();
 }
